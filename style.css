@@ -1,0 +1,123 @@
+img{
+    width: 10%;
+    height: 10%;
+    background-position: left, top;
+}
+
+.sous-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.button1{
+    border: 0;
+    line-height: 2.5;
+    padding: 1%;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-bottom: 15%;
+    width: 20%;
+    display: inline-block;
+    margin: 0 3%;
+    text-align: center;
+}
+
+.button2{
+    border: 0;
+    line-height: 2.5;
+    padding: 1%;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-bottom: 10%;
+    width: 20%;
+    display: inline-block;
+    margin: 0 3%;
+    text-align: center;
+}
+
+.button3{
+    border: 0;
+    line-height: 2.5;
+    padding: 1%;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: transparent;
+    margin-bottom: 10%;
+    width: 20%;
+    display: inline-block;
+    margin: 0 3%;
+    text-align: center;
+}
+
+.sous-title1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: #FF9A3D;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.sous-title2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color: black;
+    margin-left: 15%;
+    margin-top: -2%;
+}
+
+.button4{
+    border: 0;
+    line-height: 0;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 30px;
+    margin-bottom: 10%;
+    width: 20%;
+    display: inline-block;
+    margin: 0 3%;
+    text-align: center;
+    background-image: linear-gradient(to top left);
+    background-color: #FF9A3D;
+    margin-left: 20%;
+}
+
+.container{
+    display: flex;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 60%;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30%;
+}
+
+.image img{
+    height: 700px;
+    width: 700px;
+}
